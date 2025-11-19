@@ -56,7 +56,7 @@ PORTFOLIO_TEMPLATE = """
             <section id="why-codeleap" class="mb-16 md:mb-24">
                 <div class="glass-effect p-6 rounded-lg">
                     <p class="text-slate-400 leading-relaxed">
-                        Meu Nome é Kirlian, e sou um desenvolvedor Python com experiência em Django, Flask e React. Tenho uma paixão por criar soluções eficientes e escaláveis para a web. 
+                        Meu Nome é Kirlian, e sou um desenvolvedor Python/java com conhecimento em Django, Flask e React. Tenho uma paixão por criar soluções eficientes e escaláveis para a web. 
                         Sou Interessado em Automação e Programação. Podendo ser programador, Analista de Dados ou Engenharia de Automação.
                     </p>
                 </div>
@@ -173,4 +173,5 @@ PORTFOLIO_TEMPLATE = """
 def portfolio():
     # Renderiza o template HTML diretamente da string
     return render_template_string(PORTFOLIO_TEMPLATE)
+
 
