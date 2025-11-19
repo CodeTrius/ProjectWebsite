@@ -90,7 +90,7 @@ PORTFOLIO_TEMPLATE = """
                     <!-- Projeto 1 -->
                     <div class="grid grid-cols-1 md:grid-cols-5 gap-6 items-center">
                         <div class="md:col-span-3 text-left">
-                            <h3 class="text-xl font-bold text-slate-200 hover:text-highlight transition-colors"><a href="LINK_PARA_SEU_PROJETO_1" target="_blank">API de Gerenciamento de Tarefas</a></h3>
+                            <h3 class="text-xl font-bold text-slate-200 hover:text-highlight transition-colors"><a href="LINK_PARA_SEU_PROJETO_1" target="_blank">Teste</a></h3>
                             <div class="glass-effect my-4 p-6 rounded-lg shadow-lg">
                                 <p class="text-slate-400">
                                     Uma API RESTful construída com Django e Django REST Framework. Permite criar, listar, atualizar e deletar tarefas.
@@ -119,7 +119,7 @@ PORTFOLIO_TEMPLATE = """
                             </a>
                         </div>
                         <div class="md:col-span-3 text-right">
-                            <h3 class="text-xl font-bold text-slate-200 hover:text-highlight transition-colors"><a href="LINK_PARA_SEU_PROJETO_2" target="_blank">Bot Assistente para Slack</a></h3>
+                            <h3 class="text-xl font-bold text-slate-200 hover:text-highlight transition-colors"><a href="LINK_PARA_SEU_PROJETO_2" target="_blank">Teste</a></h3>
                              <div class="glass-effect my-4 p-6 rounded-lg shadow-lg">
                                 <p class="text-slate-400">
                                     Um bot para Slack que utiliza processamento de linguagem natural (NPL) para agendar reuniões e criar lembretes. Inspirado no Projeto Alpha, demonstra habilidade com integrações de API e um mindset orientado a soluções.
@@ -173,3 +173,4 @@ PORTFOLIO_TEMPLATE = """
 def portfolio():
     # Renderiza o template HTML diretamente da string
     return render_template_string(PORTFOLIO_TEMPLATE)
+
